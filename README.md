@@ -30,11 +30,6 @@ cd cypress-fufelka-tests
 2.Установить зависимости: npm install
 
 3.Создать файл .env в корне проекта (не выложил, скину отдельно)
-<<<<<<< HEAD
-Запуск через ui: npx cypress open
-=======
 
 Запуск через ui: npx cypress open
-
->>>>>>> 8c0051666e98254f0dfab6ff1bbccceb8e4215b2
 Запуск через консоль: npx cypress run 
