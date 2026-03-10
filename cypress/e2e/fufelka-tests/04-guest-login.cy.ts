@@ -45,7 +45,7 @@ describe('Сценарий D: Гостевой вход и привязка emai
     cy.contains('Register now', { timeout: 10000 }).click();
 
     // Перехватить запрос отправки кода подтверждения
-    cy.intercept('POST', '**api/auth/register/').as('sendEmailCode'); // уточните эндпоинт
+    cy.intercept('POST', '**api/auth/register/').as('sendEmailCode'); 
 
     // Ввести сгенерированный email и pass
     cy.get('input[placeholder="Login"]', { timeout: 10000 }).type(testEmail);
